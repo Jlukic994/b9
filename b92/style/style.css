@@ -1,0 +1,557 @@
+body {
+    background-image: url(../img/background.jpg);
+    font-size: 20px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+/* ================HEADER================= */
+
+#header {
+    width: 100%;
+    background-color: #2e2873;
+}
+
+
+/* ================Top-bar================= */
+
+.logo-div {
+    float: left;
+}
+
+.logo-div img {
+    width: 55px;
+    transition: transform 0.4s ease;
+}
+
+.logo-div img:hover {
+    transform: scale(1.2);
+}
+
+.top-nav-img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.top-nav-div {
+    float: left;
+    margin-left: 50px;
+}
+
+.top-nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.top-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60%;
+}
+
+.top-li {
+    padding: 0 5px;
+}
+
+.top-link:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 4px;
+}
+
+.blog-nav {
+    float: left;
+    display: flex;
+    list-style-type: none;
+}
+
+.blog-link {
+    color: #fff;
+    font-size: 60%;
+    padding: 0 15px;
+    transition: color 0.4s ease;
+}
+
+.blog-link:hover {
+    color: yellow;
+}
+
+.blog-link1 {
+    border-right: 1px solid rgb(189, 189, 189);
+}
+
+.social-div {
+    float: right;
+}
+
+.social-nav {
+    display: flex;
+}
+
+.social-li {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-link img {
+    width: 20px;
+}
+
+.social-li:hover {
+    transform: scale(1.1);
+}
+
+.search-li {
+    background-color: transparent;
+}
+
+
+/* ================NAVBAR================= */
+
+.nav-bar {
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.nav-li {
+    padding-right: 8px;
+}
+
+.nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70%;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.yellow-link {
+    color: yellow;
+}
+
+.nav-link img {
+    width: 18px;
+}
+
+
+/* ================DROPDOWN================= */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: white;
+    position: absolute;
+    padding: 5px 100px 5px 5px;
+    box-shadow: 0 10px 10px #666;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown-li {
+    margin-bottom: 8px;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    transition: color 0.4s ease;
+}
+
+.dropdown-link:hover {
+    color: #333;
+}
+
+
+/* ===================MAIN CONTENT=========================== */
+
+.main-content {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.right-div {
+    width: 330px;
+    float: right;
+}
+
+.loto-img {
+    width: 330px;
+    margin-bottom: 10px;
+}
+
+.telenor-img {
+    width: 330px;
+}
+
+.right-div h3 {
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    margin: 0;
+    font-size: 100%;
+}
+
+.right-div h3:hover {
+    text-decoration: underline;
+}
+
+.right-smal-div {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.djeca-img {
+    width: 308px;
+    margin-top: 10px;
+}
+
+.right-smal-div h2 {
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+    font-size: 140%;
+    margin-top: 0;
+}
+
+.right-smal-div h2:hover {
+    text-decoration: underline;
+}
+
+.small-list {
+    padding-left: 0;
+}
+
+.small-li {
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+.small-img {
+    width: 100px;
+    float: left;
+}
+
+.small-text {
+    float: right;
+    width: 200px;
+    color: #333;
+    font-size: 90%;
+}
+
+.small-text:hover {
+    text-decoration: underline;
+}
+
+.left-div {
+    width: 660px;
+    float: left;
+}
+
+.main-news-img {
+    background-image: url(../img/main-news.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 390px;
+    padding: 10px;
+    color: #fff;
+    float: left;
+    height: 315px;
+}
+
+.main-text {
+    background-color: rgba(117, 117, 117, 0.329);
+    /* padding: 5px; */
+    padding: 0 10px 5px 10px;
+}
+
+h1 {
+    font-size: 150%;
+    margin-top: 110px;
+    margin-bottom: 0;
+}
+
+.main-text p {
+    font-size: 90%;
+    margin-top: 4px;
+}
+
+.breaking-news {
+    float: right;
+    width: 220px;
+}
+
+.breaking-news h3 {
+    font-size: 60%;
+    margin: 0;
+    background-color: red;
+    padding: 4px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+}
+
+.news-list {
+    padding: 0;
+}
+
+.news-link {
+    color: #333;
+    font-size: 70%;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
+
+.red-number {
+    color: red;
+    margin-left: 15px;
+    border-left: 1px solid #333;
+    padding-left: 15px;
+    font-size: 70%;
+}
+
+.red-number:hover {
+    text-decoration: underline;
+}
+
+.news-li {
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 10px;
+    margin-bottom: 4px;
+}
+
+
+/* ====================LEFT 2col NEWS========== */
+
+.left-news {
+    width: 310px;
+    margin-top: 20px;
+    position: relative;
+    height: 190px;
+    float: left;
+    background-color: #333;
+    margin-right: 20px;
+}
+
+.left-news img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.midDiv {
+    width: 20px;
+    height: 190px;
+    float: left;
+}
+
+.left-news h4 {
+    color: #fff;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-size: 100%;
+    position: absolute;
+    bottom: 6%;
+    width: 80%;
+    padding-left: 14px;
+}
+
+.left-news a {
+    color: #fff;
+}
+
+.left-news h4:hover {
+    text-decoration: underline;
+}
+
+.authorDiv {
+    position: absolute;
+    top: 0;
+    padding: 8px 0 0 10px;
+    color: #fff;
+}
+
+.dateDiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 8px 10px 0 0;
+}
+
+
+/* =======+++++++SMAll NEWS=--------------- */
+
+.smal-news {
+    width: 145px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.smal-news p,
+.smal-news-last P {
+    margin-bottom: 0;
+}
+
+.smal-news-last {
+    width: 145px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.smal-news img,
+.smal-news-last img {
+    width: 145px;
+    /* margin-top: 20px; */
+}
+
+.smal-news a,
+.smal-news-last a {
+    color: #333;
+    font-weight: 100;
+}
+
+.smal-news a:hover,
+.smal-news-last a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==========Foooter============== */
+
+.leftFooterDiv {
+    width: 800px;
+}
+
+footer {
+    background-color: #2c2a48;
+    border-top: 5px solid #625e94;
+}
+
+footer .wrapper {
+    position: relative;
+}
+
+footer ul {
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #423f6d;
+}
+
+.footerNavLi {
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.footerNavLink {
+    color: white;
+    font-size: 80%;
+}
+
+.footerNavLink:hover {
+    color: rgb(184, 184, 184);
+}
+
+.secondFooterNav {
+    margin-bottom: 0;
+}
+
+.secondFooterLi {
+    padding-right: 10px;
+    padding-bottom: 20px;
+    font-size: 80%;
+    color: rgb(184, 184, 184);
+}
+
+.secondFooterLink {
+    color: rgb(184, 184, 184);
+}
+
+.secondFooterLink:hover {
+    color: #fff;
+}
+
+.footerImg {
+    width: 70px;
+    transform: translateY(22%);
+}
+
+.footerText {
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(184, 184, 184);
+    margin-bottom: 20px;
+}
+
+.footerHeading {
+    margin: 0;
+    font-size: 90%;
+}
+
+.footerPara {
+    margin: 0;
+    font-size: 80%;
+}
+
+.footerPara a {
+    color: rgb(184, 184, 184);
+    font-style: italic;
+}
+
+.footerPara a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.rightFooterDiv {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+.footerLogo img {
+    width: 150px;
+    transition: transform 0.5s ease;
+}
+
+.footerLogo img:hover {
+    transform: scale(0.9);
+}
